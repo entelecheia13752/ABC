@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bilibili_copy</title>
+    <style>
+      /* * {
+        border: 1px solid black;
+      } */
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: white;
+      }
+      .baiSe {
+        background-color: white;
+      }
+      .flex {
+        display: flex;
+      }
+      .one_flex {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .row {
+        flex-direction: row;
+      }
+      .dingBu {
+        height: 200px;
+        background-color: rgb(182, 182, 250);
+        color: #eee;
+        max-width: 1580px;
+        margin: 0px 25px;
+      }
+      .zhongJian {
+        width: 1400px;
+        margin: 0px auto;
+      }
+      .diBu {
+        width: 1400px;
+        margin: 0px 0px 0px 117px;
+      }
+      .daoHang {
+        margin: 15px;
+        width: 130px;
+        text-align: center;
+        padding: 10px;
+      }
+      .center {
+        align-items: center;
+        justify-content: center;
+      }
+      .tuiJian {
+        display: flex;
+        flex: 1;
+        margin: 8px;
+        font-size: 14px;
+        background-color: #eaeaef;
+        color: #706868;
+        align-items: center;
+        justify-content: center;
+      }
+      .xunXi {
+        height: 250px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      #xunXi p {
+        padding-right: 30px;
+      }
+    </style>
+  </head>
+  <body class="flex column">
+    <!--顶部-->
+    <div class="dingBu flex column">
+      <!--上部用户区-->
+      <div style="height: 80px" class="flex">
+        <!--左部头像区-->
+        <div style="width: 400px" class="flex center">
+          <img
+            src="OIP-C.jpg"
+            alt="头像"
+            style="border-radius: 200px; width: 40px; height: 40px"
+          />
+          <div style="margin-left: 8px; border: none">张咸鱼</div>
+        </div>
+        <!--右部数据区-->
+        <div class="flex one_flex">
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang one_flex">bilibili乾杯 - ( ゜- ゜)つロ</div>
+        </div>
+      </div>
+      <!--下部搜索区-->
+      <div class="flex center one_flex">
+        <!--商标区-->
+        <div>
+          <img src="bilibili.png" alt="bilibili" style="height: 20px" />
+        </div>
+        <!--搜索区-->
+        <div
+          style="
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            border: 2px solid #d7d3d3;
+            font-size: 14px;
+            line-height: 40px;
+            padding-left: 20px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(53, 49, 49);
+          "
+        >
+          请输入您要搜索的事
+        </div>
+      </div>
+    </div>
+    <!--底部-->
+    <div class="flex zhongJian column">
+      <!--上方的推荐栏-->
+      <div class="flex" style="height: 100px">
+        <!--推荐栏的左侧-->
+        <div class="flex" style="width: 200px">
+          <div
+            class="flex column"
+            style="width: 100px; padding-left: 50px; padding-top: 20px"
+          >
+            <img
+              src="我的动态.png"
+              alt="动态"
+              style="width: 40px; height: 40px"
+            />动态
+          </div>
+          <div
+            class="flex one_flex column"
+            style="padding-right: 50px; padding-top: 20px"
+          >
+            <img
+              src="热门活动.png"
+              alt="活动"
+              style="width: 40px; height: 40px"
+            />热门
+          </div>
+        </div>
+        <!--推荐栏的中间-->
+        <div
+          class="flex one_flex column"
+          style="border-right: 2px solid #eaeaef; margin: 10px 0px"
+        >
+          <div class="flex" style="height: 40px">
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+          </div>
+          <div class="flex one_flex">
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+            <div class="tuiJian">推荐</div>
+          </div>
+        </div>
+        <!--推荐栏的右侧-->
+        <div class="flex column" style="width: 250px">
+          <div class="flex" style="height: 50px">
+            <div class="flex one_flex center">
+              <img src="机器猫.png" alt="图标" style="width: 12px; height: 12px" />
+              专栏
+            </div>
+            <div class="flex one_flex center">
+              <img src="机器猫.png" alt="图标" style="width: 12px; height: 12px" />
+              活动
+            </div>
+            <div class="flex center" style="width: 120px">
+              <img src="机器猫.png" alt="图标" style="width: 12px; height: 12px" />
+              社区中心
+            </div>
+          </div>
+          <div class="flex flex one_flex">
+            <div class="flex one_flex center">
+              <img src="机器猫.png" alt="图标" style="width: 12px; height: 12px" />
+              直播
+            </div>
+            <div class="flex one_flex center">
+              <img src="机器猫.png" alt="图标" style="width: 12px; height: 12px" />
+              课堂
+            </div>
+            <div class="flex center" style="width: 120px">
+              <img src="机器猫.png" alt="图标" style="width: 12px; height: 12px" />
+              新歌热榜
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--下方的讯息栏-->
+    <div class="flex one_flex diBu" style="">
+      <!--大屏-->
+      <div class="" style="width: 550px; margin-left: 8px">
+        <img src="图片2.avif" alt="" style="width: 530px; height: 430px" />
+      </div>
+      <!--讯息栏的右侧-->
+      <div class="flex one_flex column">
+        <div class="flex" id="xunXi">
+          <div class="flex one_flex xunXi column" style="padding-bottom: 10px">
+            <img src="封面1.avif" alt="封面" style="width: 250px; height: 180px" />
+            <p>跟芊芊的减肥日记之椒麻鸡拌面奶<br />茶麻辣香锅美滋滋</p>
+            <div
+              class="flex center"
+              style="font-size: 12px; color: rgb(182, 178, 178)"
+            >
+              <img src="UP主.png" alt="封面" style="width: 15px; height: 15px" />
+              Crazy和弦&ensp;·&ensp;16小时前
+            </div>
+          </div>
+          <div class="flex one_flex xunXi column" style="padding-bottom: 10px">
+            <img src="封面2.avif" alt="封面" style="width: 250px; height: 180px" />
+            <p>【披哥4】二公下reaction！封神？<br />这哥看的我浑身发麻！</p>
+            <div
+              class="flex center"
+              style="font-size: 12px; color: rgb(182, 178, 178)"
+            >
+              <img src="UP主.png" alt="封面" style="width: 15px; height: 15px" />
+              Crazy和弦&ensp;·&ensp;16小时前
+            </div>
+          </div>
+          <div class="flex one_flex xunXi column" style="padding-bottom: 10px">
+            <img src="封面3.avif" alt="封面" style="width: 250px; height: 180px" />
+            <p>
+              𝙇𝙤𝙛𝙞·𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩·「25/5番茄钟0/1/2/<br />3」开学了，来学校的湖边采风学习...
+            </p>
+            <div
+              class="flex center"
+              style="font-size: 12px; color: rgb(182, 178, 178)"
+            >
+              <img src="UP主.png" alt="封面" style="width: 15px; height: 15px" />
+              Crazy和弦&ensp;·&ensp;16小时前
+            </div>
+          </div>
+        </div>
+        <div class="flex" id="xunXi">
+          <div class="flex one_flex xunXi column" style="padding-bottom: 10px">
+            <img src="封面4.avif" alt="封面" style="width: 250px; height: 180px" />
+            <p>一口气13小时看完2500年西方哲学<br />史的伟大哲学家</p>
+            <div
+              class="flex center"
+              style="font-size: 12px; color: rgb(182, 178, 178)"
+            >
+              <img src="UP主.png" alt="封面" style="width: 15px; height: 15px" />
+              Crazy和弦&ensp;·&ensp;16小时前
+            </div>
+          </div>
+          <div class="flex one_flex xunXi column" style="padding-bottom: 10px">
+            <img src="封面5.avif" alt="封面" style="width: 250px; height: 180px" />
+            <p>决定送走小鹿斑比的好朋友，希望<br />它不要怪我</p>
+            <div
+              class="flex center"
+              style="font-size: 12px; color: rgb(182, 178, 178)"
+            >
+              <img src="UP主.png" alt="封面" style="width: 15px; height: 15px" />
+              Crazy和弦&ensp;·&ensp;16小时前
+            </div>
+          </div>
+          <div class="flex one_flex xunXi column" style="padding-bottom: 10px">
+            <img src="封面6.avif" alt="封面" style="width: 250px; height: 180px" />
+            <p>《剑与远征：启程》PC版来喽！</p>
+            <div
+              class="flex center"
+              style="font-size: 12px; color: rgb(182, 178, 178)"
+            >
+              <img src="UP主.png" alt="封面" style="width: 15px; height: 15px" />
+              Crazy和弦&ensp;·&ensp;16小时前
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--图标-->
+      <div class="flex column" style="width: 50px">
+        <div class="flex one_flex">
+          <img src="换一换.png" alt="图标" style="width: 25px; height: 25px" />
+        </div>
+        <div class="flex one_flex">
+          <img src="稍后再看.png" alt="图标" style="width: 25px; height: 25px" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
